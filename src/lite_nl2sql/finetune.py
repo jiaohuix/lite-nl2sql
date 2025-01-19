@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, TrainingArguments
 from trl import SFTTrainer
 from unsloth import FastLanguageModel, is_bfloat16_supported
 
-from trainer import ModelTrainer,initialize_model, setup_peft_model
+from lite_nl2sql.trainer import ModelTrainer,initialize_model, setup_peft_model
 
 
 def main():

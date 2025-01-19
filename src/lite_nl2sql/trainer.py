@@ -2,8 +2,8 @@ import json
 from datasets import load_dataset, Dataset
 from transformers import TrainingArguments
 from trl import SFTTrainer
-from config import DATASET_CONFIG, MAX_SEQ_LENGTH, TRAINING_ARGS, MODEL_CONFIG, PEFT_CONFIG
-from exceptions import UnslothNotInstalledError
+from lite_nl2sql.config import DATASET_CONFIG, MAX_SEQ_LENGTH, TRAINING_ARGS, MODEL_CONFIG, PEFT_CONFIG
+from lite_nl2sql.exceptions import UnslothNotInstalledError
 
 try:
     from unsloth import standardize_sharegpt, apply_chat_template, is_bfloat16_supported, FastLanguageModel    # type: ignore
