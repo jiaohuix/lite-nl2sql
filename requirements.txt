@@ -1,0 +1,17 @@
+transformers>=4.41.2
+datasets>=2.14.6
+tiktoken>=0.7.0
+torch>=2.2.1
+peft>=0.4.0
+trl>=0.5.0
+prettytable
+func-timeout
+sqlparse
+jsonlines
+rouge-chinese>=1.0.3
+jieba>=0.42.1
+nltk>=3.8.1
+matplotlib>=3.8.1
+bitsandbytes>=0.39.0
+# accelerate
+unsloth==2025.1.5

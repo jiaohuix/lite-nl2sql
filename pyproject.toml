@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lite-nl2sql"
+version = "0.1.0"
+description = "light nl2sql toolkit"
+authors = ["jiaohuix <1152937237@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.48.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
